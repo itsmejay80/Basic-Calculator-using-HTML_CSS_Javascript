@@ -1,0 +1,32 @@
+.operator{
+  margin-top: 0.9mm;
+  width: 135%;
+  height: 149%;
+  align-items: center;
+  background-color:rgb(87, 105, 122);
+  color: aliceblue;
+}
+
+.num{
+  width: 120%;
+  height: 120%;
+  background-color: rgb(42, 43, 42);
+  color: aliceblue;
+}
+#display{
+  background-color: aliceblue;
+  width: 15%;
+  height: 1cm;
+  font-size: 150%;
+}
+
+
+#tbl_1 {
+  height: 39mm;
+  float: left;
+  border: azure;
+}
+
+#tbl_2{
+  height: 38mm;
+}

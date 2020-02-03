@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="calc.css">
+</head>
+  <body>
+    <form action="calculator">
+      <div>
+        <input type="text" id="display">
+        <br>
+        <br>
+      </div>
+      <div>
+        <div>
+        <table id="tbl_1">
+          <tr>
+            <td><input type="button" class="num" value="7" onclick="disp('7')"></td>
+            <td><input type="button" class="num" value="8" onclick="disp('8')"></td>
+            <td><input type="button" class="num" value="9" onclick="disp('9')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="num" value="4" onclick="disp('4')"></td>
+            <td><input type="button" class="num" value="5" onclick="disp('5')"></td>
+            <td><input type="button" class="num" value="6" onclick="disp('6')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="num" value="1" onclick="disp('1')"></td>
+            <td><input type="button" class="num" value="2" onclick="disp('2')"></td>
+            <td><input type="button" class="num" value="3" onclick="disp('3')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="num" value="." onclick="disp('.')"></td>
+            <td><input type="button" class="num" value="0" onclick="disp('0')"></td>
+            <td><input type="button" class="num" value="=" onclick="solve()"></td>
+          </tr>
+        </div>
+        <div>
+          <table id="tbl_2">
+            <tr>
+              <td><input type="button" class="operator" value="DEL" onclick="c()"></td>
+            </tr>
+            <tr>
+              <td><input type="button" class="operator" value="÷" onclick="disp('/')"></td>
+            </tr>
+            <tr>
+              <td><input type="button" class="operator" value="x" onclick="disp('*')"></td>
+            </tr>
+            <tr>
+              <td><input type="button" class="operator" value="-" onclick="disp('-')"></td>
+            </tr>
+            <tr>
+              <td><input type="button" class="operator" value="+" onclick="disp('+')"></td>
+            </tr>
+          </table>
+          </div>
+        </table>
+      
+      </div>
+    </form>
+    <script src="calc.js"></script>
+  </body>
+</html>
